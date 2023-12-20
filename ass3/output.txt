@@ -1,0 +1,1 @@
+bash: ./simplecompile.sh: Permission denied
