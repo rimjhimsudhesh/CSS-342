@@ -24,3 +24,9 @@ Polynomial p3 = p1 + p2;
 
 Polynomial p4 = p1 * p2;    // (x^2 + 2x + 3) * (4x^2 + 5x + 6)
 cout << p3;            // output: 4x^4 + 13x^3 + 28x^2 + 27x + 18
+
+operator<<, >> 
+Constructor with default values
+Equality: operator==, operator!=
+Comparison: operator>, operator<, operator>=, operator<=
+Addition/Subtraction and Multiplication:operator*, operator+, operator-, operator+=, operator-=,operator*=
