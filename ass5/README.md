@@ -1,0 +1,5 @@
+### Threaded Binary Search Tree  
+Since a binary search tree with N nodes has N + 1 NULL pointers, half the space allocated in a binary search tree for pointer information is wasted. Suppose that if a node has a NULL left child, we make its left child pointer link to its inorder predecessor, and if a node has a NULL right child, we make its right child pointer link to its inorder successor. This is known as a threaded tree and the extra links are called threads.
+
+### To test: 
+Implement your ThreadedBST and Inorder traversal as described above. Then, write a program that uses these classes as follows. Your program should take a single command line argument: an integer, n, specifying the number of nodes to create in your tree. Your program should then create a ThreadedBST with KeyType being int and insert the numbers 1,2,…,n into that container in NON INCREMENTAL order (see above). It should then make a copy of that tree and delete all the even numbers from the copy. Finally, it should use iterators to perform an inorder traversal of each tree, outputting to cout each node’s contents (just put a single space between each node’s contents).
